@@ -21,24 +21,37 @@ const int oemCode = 0x0000; // OemUnkown
 #if defined(__MK66FX1M0__)
 #define RESET_PIN 24
 
-#define LED_PIN01
-#define LED_PIN02
-#define LED_PIN03
-#define LED_PIN04
-#define LED_PIN05
-#define LED_PIN06
-#define LED_PIN07
-#define LED_PIN08
-#define LED_PIN09
-#define LED_PIN10
-#define LED_PIN11
-#define LED_PIN12
-#define LED_PIN13
-#define LED_PIN14
-#define LED_PIN15
-#define LED_PIN16
-#define LED_PIN17
-#define LED_PIN18
+#define LED_PIN01 15
+#define LED_PIN02 22
+#define LED_PIN03 23
+#define LED_PIN04 9
+#define LED_PIN05 10
+#define LED_PIN06 13
+#define LED_PIN07 11
+#define LED_PIN08 12
+#define LED_PIN09 2
+#define LED_PIN10 14
+#define LED_PIN11 7
+#define LED_PIN12 8
+#define LED_PIN13 6
+#define LED_PIN14 20
+#define LED_PIN15 21
+#define LED_PIN16 5
+
+#define BTN0  28
+#define BTN1  29
+#define BTN2  30
+#define SDA   33
+#define SCL   34
+
+#define GPIO_0 35
+#define GPIO_1 27
+#define GPIO_2 36
+#define GPIO_3 26
+#define GPIO_4 37
+#define GPIO_5 25
+#define GPIO_6 38
+#define GPIO_7 39
 
 #else
 #define RESET_PIN 9
