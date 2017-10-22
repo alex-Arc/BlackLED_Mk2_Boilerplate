@@ -49,7 +49,7 @@ const int LED_PIN[] = {15, 22, 23, 9, 10, 13, 11, 12, 2, 14, 7, 8, 6, 20, 21, 5}
 #define SDA   33
 #define SCL   34
 
-const int GPIO[] = {35, 27, 36, 26, 37, 25, 38, 39};
+const int GPIO_PIN[] = {35, 27, 36, 26, 37, 25, 38, 39};
 // #define GPIO_0 35
 // #define GPIO_1 27
 // #define GPIO_2 36
