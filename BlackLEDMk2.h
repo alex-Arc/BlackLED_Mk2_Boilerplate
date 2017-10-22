@@ -21,7 +21,8 @@ const int oemCode = 0x0000; // OemUnkown
 #if defined(__MK66FX1M0__)
 #define RESET_PIN 24
 
-const static int LED_PIN[] = {15, 22, 23, 9, 10, 13, 11, 12, 2, 14, 7, 8, 6, 20, 21, 5};
+const int LED_PIN[] = {15, 22, 23, 9, 10, 13, 11, 12, 2, 14, 7, 8, 6, 20, 21, 5};
+
 // #define LED_PIN01 15
 // #define LED_PIN02 22
 // #define LED_PIN03 23
@@ -45,7 +46,7 @@ const static int LED_PIN[] = {15, 22, 23, 9, 10, 13, 11, 12, 2, 14, 7, 8, 6, 20,
 #define SDA   33
 #define SCL   34
 
-const static int GPIO[] = {35, 27, 36, 26, 37, 25, 38, 39};
+const int GPIO[] = {35, 27, 36, 26, 37, 25, 38, 39};
 // #define GPIO_0 35
 // #define GPIO_1 27
 // #define GPIO_2 36
