@@ -15,6 +15,9 @@
 #include <TeensyMAC.h>
 #include <EEPROM.h>
 
+EthernetUDP udp;
+uint8_t udp_buffer[600];
+
 //constants
 const int oemCode = 0x0000; // OemUnkown
 
